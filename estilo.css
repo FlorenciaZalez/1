@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 500px;
+}
+
+img{
+    width: 450px;
+    height: 500px;
+}
+
+.uno{
+    background-color: lightskyblue;
+    margin-right: 100px;
+}
+
+.dos{
+    background-color: aquamarine;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
