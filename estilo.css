@@ -5,44 +5,211 @@
 
 section{
     background-color: white;
-    padding: 20px;
+    padding: 20px 25px 60px 25px;
     margin: 100px 200px;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
     height: 500px;
+}
+
+
+div{
+    margin: 20px 28px 0px 28px;
 }
 
 img{
     width: 450px;
     height: 500px;
+    border-radius: 10px;
 }
 
 .imagen{
-    background-color: lightskyblue;
     margin-right: 100px;
 }
 
 .registro{
-    background-color: aquamarine;
+    background-color: white;
+    border: 0.5px solid grey;
+    border-radius: 10px;
     width: 350px;
     height: 500px;
-    margin-left: 50px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 0px auto;
 }
+
+
+/*--------- BOTON SIGN IN -----------*/
+
+.sign{
+    background-color: white;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+/*--------- REDES -----------*/
+
 
 .redes{
     display: flex;
+    width: 300px;
+    margin: 0px;
+
 }
 
 .google{
     width: 30px;
     height: 30px;
+    margin: 5px 0 0 0;
+}
+
+.facebook{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0 0 0;
+}
+
+.apple{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0 0 0;
+}
+
+.facebookContenedor{
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    width: 60px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.googleContenedor{
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    width: 60px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.appleContenedor{
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    width: 60px;
+    height: 40px;
+    margin: 0 auto;
 }
 
 
+/*--Or Continue with--*/
+
+p{
+
+    font-size: 13px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
+/*--Botones Mail y Mobile Number--*/
 
 
+.EmailyMobile{
+    display: flex;
+    margin: 5px 0px 0px 20px;
+    width: 1000px;
+}
+
+
+.buttonEmail{
+    border: 0.5px solid rgb(255, 102, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 102, 0);
+    width: 88px;
+    height: 38px;
+    margin: 23px 0px 0px 28px;
+}
+
+.Email{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+.buttonMobile{
+    width: 100px;
+    height: 38px;
+    padding-top: 10px;
+
+}
+
+.mobileNumber{
+    
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*---Campos---*/
+
+.emailA{
+font-size: 15px;
+text-align: left;
+color: black;
+margin-top: auto;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    padding: 3px 0px 3px 3px;
+    margin-top: auto;
+}
+
+.input2{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    padding: 3px 0px 3px 3px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.eye2{
+    width: 350px;
+}
+.eye{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 1px;
+}
+
+/*--- Boton Final ---*/
+
+
+.signFinal{
+    background-color: white;
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background-color: orange;
+    padding: 20px  30px 20px 18px;
+    border-radius: 10px;
+    text-align: center;
+}
 
 
