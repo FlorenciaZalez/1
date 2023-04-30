@@ -18,17 +18,26 @@ img{
     height: 500px;
 }
 
-.uno{
+.imagen{
     background-color: lightskyblue;
     margin-right: 100px;
 }
 
-.dos{
+.registro{
     background-color: aquamarine;
-    margin-left: 100px;
+    width: 350px;
+    height: 500px;
+    margin-left: 50px;
 }
 
+.redes{
+    display: flex;
+}
 
+.google{
+    width: 30px;
+    height: 30px;
+}
 
 
 
